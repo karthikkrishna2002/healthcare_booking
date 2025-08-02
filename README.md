@@ -1,69 +1,65 @@
-# React + TypeScript + Vite
+# HealthCare+ — Online Doctor Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**HealthCare+** is a modern web application for booking doctor appointments, managing schedules, and accessing healthcare services online. Built with **React**, **TypeScript**, and **Vite**, it offers a seamless experience for patients to connect with verified specialists, manage appointments, and access premium healthcare features.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏥 Appointment Flow
 
-## Expanding the ESLint configuration
+- **Browse Doctors:** Explore a list of verified doctors by specialization, ratings, and availability.
+- **Doctor Profiles:** View detailed profiles, schedules, and patient reviews.
+- **Book Appointments:** Use a simple form to book your preferred time slot.
+- **Payment Integration:** Complete a dummy payment to confirm your booking.
+- **Instant Confirmation:** Instantly receive a digital receipt and appointment confirmation.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 📅 Manage Appointments
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **View Appointments:** Track all your upcoming, completed, and canceled appointments.
+- **Reschedule:** Easily change your appointment date/time.
+- **Cancel:** Cancel appointments in a single click.
+- **Review Doctors:** Leave ratings and feedback for your consultations.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### 📞 Video Consultation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Join Video Call:** Securely join a video call with your doctor. "Join Call" is enabled 15 minutes before your appointment.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📄 Appointment Letter & Receipts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **PDF Appointment Letter:** Download a professionally formatted, hospital-branded PDF confirmation letter—with QR code and instructions.
+- **Digital Receipt:** Instantly download your payment receipt after booking.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 💳 Subscription Plans
+
+- **Flexible Options:** Choose from Basic, Premium, or Pro plans to unlock enhanced features.
+- **Benefits:** Enjoy unlimited bookings, priority support, and integrated video consultations.
+- **Easy Payment:** Subscribe to a plan with a simple, mock payment flow.
+- **Instant Feedback:** Receive immediate success notification on subscription.
+
+### ⏰ Medicine Reminders
+
+- **Set Reminders:** Add medicines and schedule timely reminders.
+- **Adherence Tracking:** Monitor your medicine intake adherence.
+
+### 🤖 HealthBot
+
+- **AI Chatbot:** Get immediate answers to health-related queries with an integrated conversation assistant.
+
+## 🖥️ Tech Stack
+
+- **Frontend:** React, TypeScript, Tailwind CSS, Vite
+- **PDF Generation:** jsPDF, jsPDF-AutoTable, QRCode
+- **Icons:** Lucide React, Radix UI
+- **State & Storage:** React Hooks, LocalStorage
+
+## 📝 Getting Started
+
+1. **Install dependencies** 
+
+  ```bash
+  npm install
+  ```     
+  2. **Start the application**
+
+  ```bash
+  npm run dev
+  ```
