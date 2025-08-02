@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Daniel Clark",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/men/89.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Fri: 9 AM - 2 PM",
+      "Tue: 10 AM - 3 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 177
+  },
+  {
+    "id": 2,
+    "name": "Dr. James Young",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/women/40.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Tue-Tue: 9 AM - 4 PM",
+      "Mon: 9 AM - 4 PM"
+    ],
+    "rating": 4.2,
+    "reviews": 148
+  },
+  {
+    "id": 3,
+    "name": "Dr. William Hall",
+    "specialization": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/women/23.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Tue-Mon: 8 AM - 2 PM",
+      "Tue: 10 AM - 5 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 21
+  },
+  {
+    "id": 4,
+    "name": "Dr. Daniel Hall",
+    "specialization": "Gynecologist",
+    "image": "https://randomuser.me/api/portraits/women/31.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Mon-Sat: 10 AM - 5 PM",
+      "Thu: 9 AM - 3 PM"
+    ],
+    "rating": 4.7,
+    "reviews": 128
+  },
+  {
+    "id": 5,
+    "name": "Dr. Charlotte Anderson",
+    "specialization": "Gynecologist",
+    "image": "https://randomuser.me/api/portraits/men/93.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Tue-Mon: 10 AM - 5 PM",
+      "Sun: 9 AM - 4 PM"
+    ],
+    "rating": 3.9,
+    "reviews": 168
+  },
+  {
+    "id": 6,
+    "name": "Dr. Benjamin Wilson",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/men/48.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Fri-Sat: 9 AM - 6 PM",
+      "Tue: 10 AM - 5 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 176
+  },
+  {
+    "id": 7,
+    "name": "Dr. Ethan Anderson",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/men/40.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Wed-Mon: 10 AM - 6 PM",
+      "Fri: 10 AM - 3 PM"
+    ],
+    "rating": 4.7,
+    "reviews": 49
+  },
+  {
+    "id": 8,
+    "name": "Dr. James Green",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/men/8.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Fri-Fri: 10 AM - 5 PM",
+      "Fri: 9 AM - 3 PM"
+    ],
+    "rating": 4.2,
+    "reviews": 218
+  },
+  {
+    "id": 9,
+    "name": "Dr. Ethan Wilson",
+    "specialization": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/women/58.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Wed: 8 AM - 5 PM",
+      "Thu: 9 AM - 3 PM"
+    ],
+    "rating": 4.7,
+    "reviews": 84
+  },
+  {
+    "id": 10,
+    "name": "Dr. Emily White",
+    "specialization": "Psychiatrist",
+    "image": "https://randomuser.me/api/portraits/women/52.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Thu-Tue: 8 AM - 5 PM",
+      "Sun: 9 AM - 5 PM"
+    ],
+    "rating": 4.4,
+    "reviews": 186
+  },
+  {
+    "id": 11,
+    "name": "Dr. Michael Walker",
+    "specialization": "Neurologist",
+    "image": "https://randomuser.me/api/portraits/women/48.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Thu-Wed: 9 AM - 3 PM",
+      "Sun: 9 AM - 5 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 109
+  },
+  {
+    "id": 12,
+    "name": "Dr. Liam King",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/men/18.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Mon-Sat: 10 AM - 4 PM",
+      "Sun: 9 AM - 5 PM"
+    ],
+    "rating": 3.8,
+    "reviews": 174
+  },
+  {
+    "id": 13,
+    "name": "Dr. Mia Green",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/men/94.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Tue: 9 AM - 4 PM",
+      "Sat: 9 AM - 3 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 132
+  },
+  {
+    "id": 14,
+    "name": "Dr. Lucas Lewis",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/women/59.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Mon-Sat: 8 AM - 4 PM",
+      "Sun: 9 AM - 4 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 162
+  },
+  {
+    "id": 15,
+    "name": "Dr. Henry Anderson",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/men/14.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Wed-Wed: 9 AM - 2 PM",
+      "Mon: 10 AM - 3 PM"
+    ],
+    "rating": 4,
+    "reviews": 52
+  },
+  {
+    "id": 16,
+    "name": "Dr. Amelia Harris",
+    "specialization": "Gynecologist",
+    "image": "https://randomuser.me/api/portraits/women/88.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Thu-Sat: 8 AM - 5 PM",
+      "Sat: 10 AM - 3 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 43
+  },
+  {
+    "id": 17,
+    "name": "Dr. Grace Kim",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/men/34.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Tue-Tue: 8 AM - 6 PM",
+      "Sat: 10 AM - 3 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 152
+  },
+  {
+    "id": 18,
+    "name": "Dr. Henry Walker",
+    "specialization": "Neurologist",
+    "image": "https://randomuser.me/api/portraits/women/87.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Thu-Wed: 8 AM - 6 PM",
+      "Sun: 10 AM - 5 PM"
+    ],
+    "rating": 3.7,
+    "reviews": 107
+  },
+  {
+    "id": 19,
+    "name": "Dr. Sophia Johnson",
+    "specialization": "Dermatologist",
+    "image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Wed-Thu: 10 AM - 6 PM",
+      "Fri: 9 AM - 5 PM"
+    ],
+    "rating": 4.6,
+    "reviews": 151
+  },
+  {
+    "id": 20,
+    "name": "Dr. Isabella Allen",
+    "specialization": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/men/79.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Thu-Thu: 9 AM - 4 PM",
+      "Wed: 9 AM - 3 PM"
+    ],
+    "rating": 4.4,
+    "reviews": 26
+  },
+  {
+    "id": 21,
+    "name": "Dr. Michael Davis",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/women/15.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Tue-Mon: 8 AM - 6 PM",
+      "Mon: 9 AM - 4 PM"
+    ],
+    "rating": 3.6,
+    "reviews": 182
+  },
+  {
+    "id": 22,
+    "name": "Dr. Grace Lewis",
+    "specialization": "Psychiatrist",
+    "image": "https://randomuser.me/api/portraits/women/66.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Fri-Sat: 9 AM - 4 PM",
+      "Wed: 10 AM - 3 PM"
+    ],
+    "rating": 4.4,
+    "reviews": 199
+  },
+  {
+    "id": 23,
+    "name": "Dr. Ava Clark",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/men/95.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Thu-Wed: 8 AM - 2 PM",
+      "Tue: 10 AM - 5 PM"
+    ],
+    "rating": 4.4,
+    "reviews": 183
+  },
+  {
+    "id": 24,
+    "name": "Dr. Noah Lee",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/women/82.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Tue-Tue: 10 AM - 3 PM",
+      "Fri: 9 AM - 4 PM"
+    ],
+    "rating": 3.6,
+    "reviews": 85
+  },
+  {
+    "id": 25,
+    "name": "Dr. Mia Walker",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/women/71.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Thu-Sat: 8 AM - 2 PM",
+      "Sat: 10 AM - 4 PM"
+    ],
+    "rating": 4.6,
+    "reviews": 99
+  },
+  {
+    "id": 26,
+    "name": "Dr. Michael White",
+    "specialization": "Neurologist",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Fri-Tue: 8 AM - 6 PM",
+      "Mon: 9 AM - 4 PM"
+    ],
+    "rating": 4.1,
+    "reviews": 31
+  },
+  {
+    "id": 27,
+    "name": "Dr. James Lewis",
+    "specialization": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/men/43.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Wed-Tue: 10 AM - 3 PM",
+      "Thu: 9 AM - 5 PM"
+    ],
+    "rating": 3.9,
+    "reviews": 205
+  },
+  {
+    "id": 28,
+    "name": "Dr. Sophia White",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/women/60.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Wed-Wed: 8 AM - 4 PM",
+      "Sat: 9 AM - 4 PM"
+    ],
+    "rating": 4.9,
+    "reviews": 121
+  },
+  {
+    "id": 29,
+    "name": "Dr. Charlotte Harris",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Thu-Tue: 9 AM - 5 PM",
+      "Thu: 10 AM - 4 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 179
+  },
+  {
+    "id": 30,
+    "name": "Dr. Benjamin Lewis",
+    "specialization": "Cardiologist",
+    "image": "https://randomuser.me/api/portraits/women/29.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Fri-Sat: 10 AM - 2 PM",
+      "Thu: 10 AM - 3 PM"
+    ],
+    "rating": 4.7,
+    "reviews": 123
+  },
+  {
+    "id": 31,
+    "name": "Dr. William Scott",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/women/76.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Fri-Mon: 8 AM - 4 PM",
+      "Tue: 10 AM - 3 PM"
+    ],
+    "rating": 4.8,
+    "reviews": 216
+  },
+  {
+    "id": 32,
+    "name": "Dr. William Allen",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/men/36.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Fri-Sat: 9 AM - 3 PM",
+      "Tue: 9 AM - 4 PM"
+    ],
+    "rating": 4.6,
+    "reviews": 104
+  },
+  {
+    "id": 33,
+    "name": "Dr. Sophia Wilson",
+    "specialization": "Endocrinologist",
+    "image": "https://randomuser.me/api/portraits/men/64.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Tue-Fri: 9 AM - 2 PM",
+      "Sat: 9 AM - 5 PM"
+    ],
+    "rating": 3.5,
+    "reviews": 56
+  },
+  {
+    "id": 34,
+    "name": "Dr. Olivia Harris",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/women/88.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Tue-Sat: 8 AM - 4 PM",
+      "Fri: 9 AM - 4 PM"
+    ],
+    "rating": 4,
+    "reviews": 60
+  },
+  {
+    "id": 35,
+    "name": "Dr. Michael Thomas",
+    "specialization": "Neurologist",
+    "image": "https://randomuser.me/api/portraits/women/37.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Wed-Wed: 8 AM - 2 PM",
+      "Tue: 9 AM - 4 PM"
+    ],
+    "rating": 4,
+    "reviews": 172
+  },
+  {
+    "id": 36,
+    "name": "Dr. Mia King",
+    "specialization": "Gynecologist",
+    "image": "https://randomuser.me/api/portraits/women/97.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Thu-Sat: 9 AM - 5 PM",
+      "Tue: 10 AM - 3 PM"
+    ],
+    "rating": 4.4,
+    "reviews": 22
+  },
+  {
+    "id": 37,
+    "name": "Dr. Amelia Wright",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/women/40.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Wed-Sat: 9 AM - 2 PM",
+      "Sun: 10 AM - 3 PM"
+    ],
+    "rating": 4.9,
+    "reviews": 188
+  },
+  {
+    "id": 38,
+    "name": "Dr. William Kim",
+    "specialization": "Orthopedic",
+    "image": "https://randomuser.me/api/portraits/men/18.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Tue: 8 AM - 4 PM",
+      "Wed: 10 AM - 5 PM"
+    ],
+    "rating": 3.5,
+    "reviews": 200
+  },
+  {
+    "id": 39,
+    "name": "Dr. Charlotte White",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/men/5.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Thu-Sat: 10 AM - 6 PM",
+      "Tue: 10 AM - 3 PM"
+    ],
+    "rating": 4.1,
+    "reviews": 37
+  },
+  {
+    "id": 40,
+    "name": "Dr. Noah Clark",
+    "specialization": "ENT Specialist",
+    "image": "https://randomuser.me/api/portraits/women/37.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Thu: 10 AM - 5 PM",
+      "Thu: 10 AM - 5 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 187
+  },
+  {
+    "id": 41,
+    "name": "Dr. Charlotte Scott",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/men/13.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Mon-Mon: 8 AM - 3 PM",
+      "Sun: 9 AM - 4 PM"
+    ],
+    "rating": 3.6,
+    "reviews": 210
+  },
+  {
+    "id": 42,
+    "name": "Dr. Liam Anderson",
+    "specialization": "Ophthalmologist",
+    "image": "https://randomuser.me/api/portraits/men/29.jpg",
+    "availability": "On Leave",
+    "schedule": [
+      "Wed-Wed: 10 AM - 2 PM",
+      "Fri: 9 AM - 4 PM"
+    ],
+    "rating": 4.3,
+    "reviews": 24
+  },
+  {
+    "id": 43,
+    "name": "Dr. Michael Wilson",
+    "specialization": "Gynecologist",
+    "image": "https://randomuser.me/api/portraits/men/92.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Wed-Mon: 8 AM - 2 PM",
+      "Thu: 10 AM - 4 PM"
+    ],
+    "rating": 4.8,
+    "reviews": 91
+  },
+  {
+    "id": 44,
+    "name": "Dr. Henry Lee",
+    "specialization": "Neurologist",
+    "image": "https://randomuser.me/api/portraits/women/22.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Fri-Tue: 9 AM - 6 PM",
+      "Thu: 9 AM - 3 PM"
+    ],
+    "rating": 4.2,
+    "reviews": 30
+  },
+  {
+    "id": 45,
+    "name": "Dr. Ava Young",
+    "specialization": "ENT Specialist",
+    "image": "https://randomuser.me/api/portraits/men/85.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Mon-Tue: 10 AM - 3 PM",
+      "Sun: 10 AM - 5 PM"
+    ],
+    "rating": 4.5,
+    "reviews": 182
+  },
+  {
+    "id": 46,
+    "name": "Dr. Henry Kim",
+    "specialization": "ENT Specialist",
+    "image": "https://randomuser.me/api/portraits/women/71.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Tue-Wed: 8 AM - 4 PM",
+      "Thu: 9 AM - 4 PM"
+    ],
+    "rating": 4.6,
+    "reviews": 89
+  },
+  {
+    "id": 47,
+    "name": "Dr. Mia Kim",
+    "specialization": "ENT Specialist",
+    "image": "https://randomuser.me/api/portraits/women/28.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Thu-Tue: 9 AM - 2 PM",
+      "Wed: 9 AM - 3 PM"
+    ],
+    "rating": 3.9,
+    "reviews": 218
+  },
+  {
+    "id": 48,
+    "name": "Dr. William Allen",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/women/41.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Wed-Fri: 8 AM - 4 PM",
+      "Fri: 9 AM - 4 PM"
+    ],
+    "rating": 4.8,
+    "reviews": 57
+  },
+  {
+    "id": 49,
+    "name": "Dr. Sophia Lee",
+    "specialization": "Psychiatrist",
+    "image": "https://randomuser.me/api/portraits/women/47.jpg",
+    "availability": "Available Today",
+    "schedule": [
+      "Fri-Thu: 9 AM - 6 PM",
+      "Thu: 9 AM - 5 PM"
+    ],
+    "rating": 3.5,
+    "reviews": 49
+  },
+  {
+    "id": 50,
+    "name": "Dr. Olivia Clark",
+    "specialization": "Pediatrician",
+    "image": "https://randomuser.me/api/portraits/women/31.jpg",
+    "availability": "Fully Booked",
+    "schedule": [
+      "Tue-Sat: 10 AM - 4 PM",
+      "Wed: 10 AM - 3 PM"
+    ],
+    "rating": 4.6,
+    "reviews": 193
+  }
+]
